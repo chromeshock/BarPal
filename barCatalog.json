@@ -1,0 +1,49 @@
+[
+
+   {
+        "barName": "Accento",
+        "location": "",
+        "description": "",
+        "beverage": [
+            {
+                    "name": "Corona ",
+                    "barId": "",
+                    "description": "A freaking awesome taste of mexican beer with lemon",
+                    "price": 7,
+                    "category": "Beer"
+                },
+            
+                {
+                    "name": "Heineken ",
+                    "barId": "",
+                    "description": "German Beer",
+                    "price": 7,
+                    "category": "Beer"
+            }
+        ]
+    },
+
+    {
+        "barName": "Rocky's",
+        "location": "",
+        "description": "",
+        "beverage": [
+            {
+                    "name": "Corona ",
+                    "barId": "",
+                    "description": "A freaking awesome taste of mexican beer with lemon",
+                    "price": 7,
+                    "category": "Beer"
+                },
+            
+                {
+                    "name": "Heineken ",
+                    "barId": "",
+                    "description": "German Beer",
+                    "price": 7,
+                    "category": "Beer"
+                }
+        ]
+    }      
+        
+    ]

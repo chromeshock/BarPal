@@ -1,0 +1,17 @@
+{
+  "name": "barpal",
+  "version": "1.0.0",
+  "description": "A web application for exploring local bars and their beverage offerings for browsing, rating, and reviewing.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hector",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  }
+}
