@@ -2,47 +2,118 @@
 
    {
         "barName": "Accento",
-        "location": "",
+        "imageUrl": "",
+        "location": "31-05 Ditmars Blvd",
+        "zipcode": "11105",
         "description": "",
         "beverage": [
             {
-                    "name": "Corona ",
-                    "barId": "",
-                    "description": "A freaking awesome taste of mexican beer with lemon",
-                    "price": 7,
-                    "category": "Beer"
-                },
+                "name": "Corona ",
+                "imageUrl":"",
+                "barId": "",
+                "description": "Corona is a Mexican lager beer with a pale straw color, medium white head, and a subtle hop nose. It has a crisp, clean flavor with notes of fruit, honey, and malt, and a touch of hoppy skunkiness. Corona is well-balanced between hops and malt, and has a refreshing taste that's not too complex.",
+                "price": 7,
+                "category": "Beer"
+            },
             
-                {
-                    "name": "Heineken ",
-                    "barId": "",
-                    "description": "German Beer",
-                    "price": 7,
-                    "category": "Beer"
+            {
+                "name": "Heineken ",
+                "imageUrl":"",
+                "barId": "",
+                "description": "Heineken is a pale lager beer with 5% alcohol by volume (ABV). It's made with malted barley, hops, water, and Heineken A-yeast, a proprietary yeast strain developed in 1886.",
+                "price": 7,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Mojito ",
+                "imageUrl":"",
+                "barId": "",
+                "description": "Cool off with this easy mojito recipe! Made with rum, lime juice, simple syrup, and fresh mint, this refreshing Cuban cocktail",
+                "price": 9,
+                "category": "Cocktail"
+            },
+            
+            {
+                "name": "Merlot ",
+                "imageUrl": "",
+                "barId": "",
+                "description": "German Beer",
+                "price": 8,
+                "category": "Wine"
+            },
+
+            {
+                "name": "Caipirinha ",
+                "imageUrl": "",
+                "barId": "",
+                "description": "A caipirinha is Brazil's national cocktail, made with cachaça, sugar, and lime. Cachaça is a hard liquor made from sugarcane, giving it a slightly sweeter taste than tequila. A caipirinha is a refreshing summertime cocktail that's great for beginners to cachaça.",
+                "price": 7,
+                "category": "Cocktail"
+            },
+            
+            {
+                "name": "Modelo ",
+                "imageUrl": "",
+                "barId": "",
+                "description": "A rich, full-flavored Pilsner-style lager with notes of orange blossom honey and a hint of herb. Some say it's perfectly balanced and has a golden hue, while others say it's too rich for fans of light beer.",
+                "price": 7,
+                "category": "Beer"
             }
         ]
     },
 
     {
         "barName": "Rocky's",
+        "imageUrl": "",
         "location": "",
+        "zipcode": "11105",
         "description": "",
         "beverage": [
             {
-                    "name": "Corona ",
-                    "barId": "",
-                    "description": "A freaking awesome taste of mexican beer with lemon",
-                    "price": 7,
-                    "category": "Beer"
-                },
-            
-                {
-                    "name": "Heineken ",
-                    "barId": "",
-                    "description": "German Beer",
-                    "price": 7,
-                    "category": "Beer"
-                }
+                "name": "Corona ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Corona is a Mexican lager beer with a pale straw color, medium white head, and a subtle hop nose. It has a crisp, clean flavor with notes of fruit, honey, and malt, and a touch of hoppy skunkiness. Corona is well-balanced between hops and malt, and has a refreshing taste that's not too complex.",
+                "price": 7,
+                "category": "Beer"
+            },
+        
+            {
+                "name": "Heineken ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Heineken is a pale lager beer with 5% alcohol by volume (ABV). It's made with malted barley, hops, water, and Heineken A-yeast, a proprietary yeast strain developed in 1886.",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Modelo ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "A rich, full-flavored Pilsner-style lager with notes of orange blossom honey and a hint of herb. Some say it's perfectly balanced and has a golden hue, while others say it's too rich for fans of light beer.",
+                "price": 7,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Guinness ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Guinness is a rich, creamy, ruby red Irish stout with a unique and consistently smooth flavor. It's made with water, malted barley, roasted barley, hops, nitrogen, and yeast, and has a dark color and intense burnt flavor. Guinness is medium and balanced, with roasted character and subtle fermentation fruitiness. It has a creamy head and a full body, with notes of chocolate and coffee",
+                "price": 7,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Stella Artois ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 9,
+                "category": "Beer"
+            }
         ]
     }      
         
