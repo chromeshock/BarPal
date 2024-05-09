@@ -1,5 +1,4 @@
 [
-
    {
         "barName": "Accento",
         "imageUrl": "",
@@ -115,6 +114,122 @@
                 "category": "Beer"
             }
         ]
-    }      
+    },      
+
+   {
+        "barName": "Dutch Kills Bar",
+        "imageUrl": "",
+        "location": "27-24 Jackson Ave",
+        "zipcode": "11101",
+        "description": "Irish Speak Easy - Dark Throw Back Style",
+        "beverage": [
+            {
+                "name": "(Lou's) Army Navy ",
+                "imageUrl":"",
+                "barId": "",
+                "description": "Gin, House-made orgeat, fresh lemon juice, Angostura bitter. Shaken, and served straight up.",
+                "price": 14,
+                "category": "Beer"
+            },
+            
+            {
+                "name": "Moscow Mule ",
+                "imageUrl":"",
+                "barId": "",
+                "description": "Haku Japanese vodka, Fresh limes juice, House-made ginger syrup, Soda water. Served long",
+                "price": 14,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Tiger Chilled Coffee ",
+                "imageUrl":"",
+                "barId": "",
+                "description": "Dark rum, Jamaican rum, Cold brew coffee, Allspice liqueur, Cinnamon syrup, Absinthe. Built in the glass o na rock with a float of sweet whipped cream.",
+                "price": 9,
+                "category": "Cocktail"
+            },
+            
+            {
+                "name": "Merlot ",
+                "imageUrl": "",
+                "barId": "",
+                "description": "German Beer",
+                "price": 8,
+                "category": "Wine"
+            },
+
+            {
+                "name": "Caipirinha ",
+                "imageUrl": "",
+                "barId": "",
+                "description": "A caipirinha is Brazil's national cocktail, made with cachaça, sugar, and lime. Cachaça is a hard liquor made from sugarcane, giving it a slightly sweeter taste than tequila. A caipirinha is a refreshing summertime cocktail that's great for beginners to cachaça.",
+                "price": 7,
+                "category": "Cocktail"
+            },
+            
+            {
+                "name": "Modelo ",
+                "imageUrl": "",
+                "barId": "",
+                "description": "A rich, full-flavored Pilsner-style lager with notes of orange blossom honey and a hint of herb. Some say it's perfectly balanced and has a golden hue, while others say it's too rich for fans of light beer.",
+                "price": 7,
+                "category": "Beer"
+            }
+        ]
+    },
+
+    {
+        "barName": "The Gutter Bar",
+        "imageUrl": "",
+        "location": "",
+        "zipcode": "11105",
+        "description": "",
+        "beverage": [
+            {
+                "name": "Allagash White ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Unfiltered Belgian style Witbier, hazy golden in color with flavors of cloves, cinnamon, and nutmeg. 5.5% ABV Maine",
+                "price": 9,
+                "category": "Beer"
+            },
         
+            {
+                "name": "NARRAGANSETT LAGER ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Rhode Island. Light golden in color, with a crisp refreshing taste. Official beer of the Clam. 5.0% ABV",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Modelo ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "A rich, full-flavored Pilsner-style lager with notes of orange blossom honey and a hint of herb. Some say it's perfectly balanced and has a golden hue, while others say it's too rich for fans of light beer.",
+                "price": 7,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Guinness ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Guinness is a rich, creamy, ruby red Irish stout with a unique and consistently smooth flavor. It's made with water, malted barley, roasted barley, hops, nitrogen, and yeast, and has a dark color and intense burnt flavor. Guinness is medium and balanced, with roasted character and subtle fermentation fruitiness. It has a creamy head and a full body, with notes of chocolate and coffee",
+                "price": 7,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Stella Artois ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 9,
+                "category": "Beer"
+            }
+        ]
+    } 
     ]
