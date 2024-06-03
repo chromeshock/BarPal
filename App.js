@@ -9,12 +9,14 @@ import BarDisplay from './components/BarDisplay.js';
 function App() {
   return (
     <Router>
-      <MenuBar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/bar/:id' element={<BarDisplay />} />
-        <Route path='/Search' element={<Search />}/>
-      </Routes>
+      <>
+        <MenuBar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/bar/:id' element={<BarDisplay />} />
+          <Route path='/search' element={<Search />} />
+        </Routes>
+      </>
     </Router>
   );
 }
