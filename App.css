@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+ .Nav-Bar {
+   display:flex;
+   flex-direction: column;
+   position:sticky;
+   margin: 0 auto 0 auto;
+ }
+ ul {
+   list-style: none;
+   display:flex;
+   flex-direction: row;
+   gap: 100px;
+   
+}
+
+.container-Search {
+ display: flex;
+ justify-content: center;
+ padding-top: 20%;
+}
+
+input, label {
+  margin: 20px 70px 0 70px;
+  text-align: center;
+  display: flex;
+}
+
+form {
+  display: flex;
+  
+}
+
+img {
+  max-height: 200px;
+  height:auto;
+  padding-bottom: 5%;
+}
+
+.explainer-container {
+  display: flex;
+  width: auto;
+  margin: 0 10px 0 10px;
+  text-align:justify;
+}
+
+.response-container {
+  display: flex;
+  margin: 15px 0 0 130px;
+}
