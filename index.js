@@ -1,41 +1,49 @@
 import express from 'express';
+import cors from 'cors';
 import mongoose from 'mongoose';
-import barRouter from './routes/barRoutes.js';
-import articleRouter from './routes/articleRoutes.js' 
-import commentRouter from './routes/commentRoutes.js';  
+import dotenv from 'dotenv';
+
+
+// Load environment variables from .env file
+dotenv.config();
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
-app.use(express.json()); // Middleware for parsing JSON bodies
-
-
-
-// MongoDB connection
-/*connect('mongodb://127.0.0.1:27017/barPal', {
-  
-}).then(() => console.log('Connected to MongoDB...'))
-  .catch(err => console.error('Could not connect to MongoDB...', err));
-*/
-
-console.log('Connecting to MongoDB...');
-mongoose.connect('mongodb://127.0.0.1:27017/BarPal')
+mongoose.connect(process.env.DB_CONNECTION, {
+  serverSelectionTimeoutMS: 5000, // 5 seconds timeout for initial connection
+  socketTimeoutMS: 45000, // 45 seconds
+})
   .then(() => console.log('Connected to MongoDB...'))
   .catch(err => console.error('Could not connect to MongoDB:', err));
 
+// Use CORS middleware
+app.use(cors());
+app.use(express.json());
 
-// Basic route for testing
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+const barSchema = new mongoose.Schema({
+  barName: String,
+  location: String,
+  zipcode: String,
+  description: String,
+  beverage: Array
 });
 
-app.use('/api/bars', barRouter);
-app.use('/api/articles', articleRouter);
-app.use('/api/comments', commentRouter);
+const Bar = mongoose.model('Bar', barSchema);
 
-// Listen on the specified port
+app.get('/api/bars/by-zipcode', async (req, res) => {
+  const { zipcode } = req.query;
+  try {
+    console.log(`Received request to search bars by zipcode: ${zipcode}`);
+    const bars = await Bar.find({ zipcode: zipcode });
+    console.log(`Bars found: ${bars.length}`);
+    res.json(bars);
+  } catch (error) {
+    console.error('Error retrieving bars:', error);
+    res.status(500).json({ message: 'Error retrieving bars: ' + error.message });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
-}).on('error', () => {
-  console.error('Failed to start server:', err);
 });

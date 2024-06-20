@@ -8,7 +8,7 @@ export const getBar = async(req, res) => {
         }
         res.json(bar);
     } catch (error) {
-        res.status(500).json({ Message: error.message });
+        res.status(500).json({ message: error.message });
     }
 };
 
