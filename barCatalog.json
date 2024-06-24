@@ -231,5 +231,221 @@
                 "category": "Beer"
             }
         ]
-    } 
+        },
+
+    {
+        "barName": "Murphy's Sports Bar",
+        "imageUrl": "",
+        "location": "45-01 23rd Ave",
+        "zipcode": "11105",
+        "description": "Sports Bar",
+        "beverage": [
+            {
+                "name": "Allagash White ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Unfiltered Belgian style Witbier, hazy golden in color with flavors of cloves, cinnamon, and nutmeg. 5.5% ABV Maine",
+                "price": 9,
+                "category": "Beer"
+            },
+        
+            {
+                "name": "NARRAGANSETT LAGER ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Rhode Island. Light golden in color, with a crisp refreshing taste. Official beer of the Clam. 5.0% ABV",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Modelo ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "A rich, full-flavored Pilsner-style lager with notes of orange blossom honey and a hint of herb. Some say it's perfectly balanced and has a golden hue, while others say it's too rich for fans of light beer.",
+                "price": 7,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Guinness ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Guinness is a rich, creamy, ruby red Irish stout with a unique and consistently smooth flavor. It's made with water, malted barley, roasted barley, hops, nitrogen, and yeast, and has a dark color and intense burnt flavor. Guinness is medium and balanced, with roasted character and subtle fermentation fruitiness. It has a creamy head and a full body, with notes of chocolate and coffee",
+                "price": 7,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Stella Artois ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 9,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Blue Moon ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Alewife",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 7,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Industrial Arts",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Ebbs Gose ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Kona Big Wave",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 9,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Downeast Blackberry",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Angry Orhard",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Murphys Red Ale ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Singlecute Haxy Ipa ",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "Lagunitas Pilsner",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 8,
+                "category": "Beer"
+            },
+
+            {
+                "name": "The Peoples Margarita",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 13,
+                "category": "Cocktail"
+            },
+
+            {
+                "name": "Fita's Old Fashioned",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 13,
+                "category": "Cocktail"
+            },
+
+            {
+                "name": "Negroni",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 12,
+                "category": "Cocktail"
+            },
+
+            {
+                "name": "Murph's Mule",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 13,
+                "category": "Cocktail"
+            },
+
+            {
+                "name": "Fraziers Sour",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 13,
+                "category": "Cocktail"
+            },
+
+            {
+                "name": "El Clasico",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 13,
+                "category": "Cocktail"
+            },
+
+            {
+                "name": "Terry's Orange",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 13,
+                "category": "Cocktail"
+            },
+
+            {
+                "name": "Molly Malone",
+                "barId": "",
+                "imageUrl": "",
+                "description": "Stella Artois is a pilsner beer",
+                "price": 13,
+                "category": "Cocktail"
+            }
+        ]
+        } 
     ]

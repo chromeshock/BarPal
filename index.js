@@ -36,13 +36,15 @@ app.get('/api/bars/by-zipcode', async (req, res) => {
   try {
     console.log(`Received request to search bars by zipcode: ${zipcode}`);
     const bars = await Bar.find({ zipcode: zipcode });
-    console.log(`Bars found: ${bars.length}`);
+    console.log('Query executed:', { zipcode: zipcode });
+    console.log(`Bars found: ${bars.length}`, bars);
     res.json(bars);
   } catch (error) {
     console.error('Error retrieving bars:', error);
     res.status(500).json({ message: 'Error retrieving bars: ' + error.message });
   }
 });
+
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);

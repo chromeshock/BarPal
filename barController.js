@@ -1,3 +1,4 @@
+//gets bar by id
 import Bar from '../models/barModel.js';
 
 export const getBar = async(req, res) => {
@@ -12,6 +13,7 @@ export const getBar = async(req, res) => {
     }
 };
 
+//creates new bar
 export const createBar = async(req, res) => {
     const bar = new Bar(req.body);
     try {
@@ -22,6 +24,7 @@ export const createBar = async(req, res) => {
     }
 };
 
+//deletes a bar
 export const deleteBar = async (req, res) => {
     try {
         const deletedBar = await Bar.findByIdAndDelete(req.params.id);
@@ -34,6 +37,7 @@ export const deleteBar = async (req, res) => {
     }
 };
 
+//updates a bar
 export const updateBar = async(req, res) => {
     try {
         const updatedBar = await Bar.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidation: true });
