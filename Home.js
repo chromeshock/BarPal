@@ -9,7 +9,7 @@ const Home = () => (
             Bar Pal
         </h1>
         <h4 className="explainer-container">
-            Your one stop spot to check out who's got what kind of cocktails, drinks and happy hour specials
+            See what kind of cocktails, drinks and happy hour specials
         </h4>
         <div>
             <BarDisplay />

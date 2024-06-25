@@ -1,20 +1,25 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const Finder = () => {
+const SearchBar = () => {
   const [zipcode, setZipcode] = useState('');
   const [results, setResults] = useState([]);
-  const [error, setError] = useState();
+  const [error, setError] = useState('');
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    setError();
+    setError('');
+    setResults([]); // Clear previous results
+
     try {
-      const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/bars/by-zipcode`, {
+      const response = await axios.get(`http://localhost:3000/api/bars/by-zipcode`, {
         params: { zipcode }
       });
-      console.log(response.data); // Inspect the API response
-      setResults(response.data);
+      if (response.data.length === 0) {
+        setError('No results found');
+      } else {
+        setResults(response.data);
+      }
     } catch (error) {
       console.error('Error fetching data:', error);
       setError('Failed to fetch data');
@@ -23,7 +28,7 @@ const Finder = () => {
 
   return (
     <div>
-      <form className="input" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <input 
           type="text" 
           value={zipcode} 
@@ -51,4 +56,4 @@ const Finder = () => {
   );
 };
 
-export default Finder;
+export default SearchBar;
