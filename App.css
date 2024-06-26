@@ -3,10 +3,7 @@
     text-align: center;
   }
 
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
+  
 
   .App-header {
     background-color: #282c34;
@@ -38,19 +35,27 @@
 
   }
 
-  .container-Search {
+  .intro {
    display: flex;
    justify-content: center;
-   padding-top: 20%;
+   padding-top: 12%;
+   padding-bottom: 12%;
+   border: solid 1px;
   }
 
-  .input {
+  .spirits {
+    display: flex;
+    width: auto;
+    margin: 0 10px 0 10px;
+  }
+
+  .input-text {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px 20px 20px 90px;
   }
 
+/*submit button*/
   input {
     margin-right: 10px;
   }
@@ -61,12 +66,7 @@
     padding-bottom: 5%;
   }
 
-  .explainer-container {
-    display: flex;
-    width: auto;
-    margin: 0 10px 0 10px;
-    text-align:justify;
-  }
+
 
   .response-container {
     display: flex;
